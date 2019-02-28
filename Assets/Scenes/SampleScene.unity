@@ -496,6 +496,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7abcdf1e92a27469aa220ef1c68650d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &689659465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 689659466}
+  - component: {fileID: 689659467}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &689659466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689659465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.83, y: -0.46, z: -11.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2024170762}
+  m_Father: {fileID: 1201987077}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &689659467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689659465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7abcdf1e92a27469aa220ef1c68650d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &793856571
 GameObject:
   m_ObjectHideFlags: 0
@@ -1352,12 +1396,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2024170761}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 7.88, y: -0.11, z: 9.89}
-  m_LocalScale: {x: 1.5077776, y: 1.507778, z: 1.507778}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 17.47, y: -2.13, z: 17.25}
+  m_LocalScale: {x: 1.5077776, y: 1.5077786, z: 1.5077785}
   m_Children: []
-  m_Father: {fileID: 1201987077}
-  m_RootOrder: 1
+  m_Father: {fileID: 689659466}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &2024170763
 SphereCollider:
