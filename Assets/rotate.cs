@@ -10,7 +10,7 @@ public class rotate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        direction = new Vector3(Random.Range(0f,0.1f),Random.Range(0f,0.1f),Random.Range(0f,0.1f));
+        direction = new Vector3(Random.Range(-0.1f,0.1f),Random.Range(-0.1f,0.1f),Random.Range(-0.1f,0.1f));
     }
 
     // Update is called once per frame
