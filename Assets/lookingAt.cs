@@ -30,7 +30,7 @@ public class lookingAt : MonoBehaviour
             Debug.Log(hit.distance);
             dofLayer.focusDistance.value = hit.distance;
             //hit.transform.localScale = new Vector3(2f,2f,2f);  
-            print("I'm looking at " + hit.transform.name);
+           // print("I'm looking at " + hit.transform.name);
         }
            
         else
