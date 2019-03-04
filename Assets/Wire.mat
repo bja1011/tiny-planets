@@ -76,6 +76,6 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
-    - _Color: {r: 0.50472736, g: 0, b: 1, a: 1}
+    - _Color: {r: 0.7217045, g: 0.5109024, b: 0.8396226, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _WireColor: {r: 0.8661604, g: 0, b: 1, a: 1}
